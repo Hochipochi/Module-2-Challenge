@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    color: royalblue;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+header {
+    background-color: grey;
+    text-align: center;
+    display: flex;
+    margin-top: 15px;
+    padding: 20px;
+    margin-right: 40px;
+}
+
+
+main {
+    background-color: grey;
+    text-align: center;
+    margin-top: 15px;
+    display: flex;
+}
+
+main a {
+    font-family: arial;
+    font-size: 120%;
+    color: royalblue;
+    justify-content:space-between;
+    padding: 90px;
+
+}
