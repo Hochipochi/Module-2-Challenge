@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    background-color: lightcoral;
 }
 
 body {
@@ -7,23 +8,32 @@ body {
     color: royalblue;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
 
 }
 
 header {
-    background-color: grey;
+    /* background-color: grey; */
     text-align: center;
     opacity: .8;
-    display: flex;
     margin-top: 15px;
     padding: 20px;
     margin-right: 40px;
+    width: 100%;
 }
 
+.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    background-color: azure;
+    color: royalblue;
+    border-radius: 10px;
+    margin: 5px;
+}
 
 main {
-    background-color: grey;
+    /* background-color: grey; */
     align-items: center;
     display: flex;
     opacity: .8;
@@ -36,9 +46,20 @@ nav a {
     color: royalblue;
     padding: 10px;
 }
-div h2 {
-    display: inline-block;
+
+.vertical-menu {
+    width: 200px;
+}
+
+.vertical-menu a {
     color: royalblue;
+    display: block;
     padding: 10px;
-    margin: 60px;
+    text-decoration: none;
+}
+
+div h2 {
+    display: flex;
+    width: 400px;
+    color: royalblue;
 }
